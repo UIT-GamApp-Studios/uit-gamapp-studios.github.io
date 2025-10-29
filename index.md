@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<img id="projectBanner" src="media/rgdc_logo.png"/>
+<img id="projectBanner" src="media/club_logo.png"/>
 
-## <i class="material-icons">help_outline</i> Who are we?
+## Who are we?
 
-RIT Game Developers Club provides an open, creative, learning environment for RIT students passionate about game development. We aim to bring students across disciplines into one welcoming space by learning together, learning from each other, and creating together. To do this we offer presentations on game development, playtesting nights, and weekend-long game jams.
+UIT GamApp Studios - CLB Lập trình Game và ứng dụng - trực thuộc Đoàn Khoa Công nghệ phần mềm - ĐHCNTT - ĐHQG TP.HCM.
 
-## <i class="material-icons">accessibility_new</i> But... I don't know how to make games?
+Giá trị cốt lõi: CHIA SẺ - QUẢNG BÁ THƯƠNG HIỆU - GIÚP ĐỠ CỘNG ĐỒNG
 
-There is no prior knowledge required to come to the club! New members are always welcome, from Computer Science to Imaging Science. 
+<!-- ## But... I don't know how to make games?
+
+There is no prior knowledge required to come to the club! New members are always welcome, from Computer Science to Imaging Science.  -->
 
 
 <!-- List of events -->
-## <i class="material-icons">date_range</i> Upcoming Events
+<!-- ## Upcoming Events
 {% for item in site.data.events %}
 
 {% if item.title %}
@@ -31,11 +33,14 @@ There is no prior knowledge required to come to the club! New members are always
 
 {{ item.description }}
 <hr>
-{% endfor %} <!-- End of Event data -->
+{% endfor %}  -->
+
+
+<!-- End of Event data -->
 
 
 
-## <i class="material-icons">chat</i> Come and chat! 
+##  Come and chat! 
 
 <iframe src="https://discordapp.com/widget?id=377989609205792778&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 

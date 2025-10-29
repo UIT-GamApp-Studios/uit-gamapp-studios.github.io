@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alice Nguyen",
+    "image": "/media/about/member1.png",
+    "status": "President"
+  },
+  {
+    "name": "Bao Tran",
+    "image": "/media/about/member2.png",
+    "status": "Vice President"
+  },
+{
+    "name": "Alice Nguyen",
+    "image": "/media/about/member1.png",
+    "status": "President"
+  },
+  {
+    "name": "Bao Tran",
+    "image": "/media/about/member2.png",
+    "status": "Vice President"
+  }
+]
