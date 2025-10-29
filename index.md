@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<img id="projectBanner" src="media/club_logo.png"/>
+<img id="projectBanner" src="media/club_logo.png" style="max-width: 100%; max-height: 100%;"/>
 
 ## Who are we?
 
