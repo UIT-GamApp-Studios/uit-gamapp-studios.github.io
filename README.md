@@ -1,5 +1,19 @@
 # Game Dev Club Site
 
+
+## Guideline for update information
+
+If you want to show media (image, video, ...) inside pages, uploading them into folder media. Learn me about embedding in case you want to embeed pptx, doc, ... or some thing else.
+
+Main page: visit and edit index.md
+
+About page: updating the json data in _data/about.json. If you want to change the template, visit about.md.
+
+Games page (product): visit folder _posts/games, create new md file for new blog, update md content and md metadata. Note that you must set the right filename.
+
+Resources page (blog): visit folder _posts/resources, create new md file for new blog, update md content and md metadata. Note that you must set the right filename.
+
+
 ## Getting Started
 
 The site is built with [Jekyll](https://jekyllrb.com/docs/), a static website generator running off of Ruby. 
