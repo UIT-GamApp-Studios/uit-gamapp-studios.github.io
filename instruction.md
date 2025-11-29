@@ -35,17 +35,48 @@ Tài liệu hướng dẫn chi tiết quy trình chuẩn bị và triển khai g
 - Kiểm tra kỹ các chức năng: gameplay, giao diện, lưu dữ liệu, v.v.  
 - Chuyển sang bước build **.aab** sau khi đã test ổn định.
 
+<p align="center">
+  <img src="/media/instruction/apk.png" alt="Build định dạng apk" width="400">
+</p>
 
-## 2. Build file **.aab**, tạo và lưu keystore
-- Build file **định dạng .aab (Android App Bundle)**.
-- Đồng thời khi build, cần tạo **keystore**.  
-- Cần lưu lại đầy đủ:
+
+
+## 2. Thiết lập Player Settings
+- Trước khi build, vào Player Setting để thiết lập các thông tin cần thiết.
+- Điền tên company, game và chọn icon (kích thước 512x512).
+
+<p align="center">
+  <img src="/media/instruction/companyname.png" alt="Thiết lập thông tin" width="800">
+</p>
+
+- Mỗi game cần có một **bundle ID riêng**. Đây là mã nhận dạng Google Play sử dụng để phân biệt giữa các game và ứng dụng. Mã không được trùng lặp và thường có dạng: *com.yourcompany.yourgamename*.
+
+<p align="center">
+  <img src="/media/instruction/bundleid.png" alt="Thiết lập thông tin" width="800">
+</p>
+
+## 3. Build file **.aab**, tạo và lưu keystore
+- Chọn **Custom Keystore**, vào **Keystore Manager**.
+- Tạo mới **keystore**.  
+- Cần lưu giữ lại đầy đủ các thành phần sau:
   - File **.keystore**.
   - Mật khẩu keystore.
+  - Alias và mật khẩu.
 
+<p align="center">
+  <img src="/media/instruction/keystore.png" alt="Tạo keystore" width="800">
+</p>
+<p align="center">
+  <img src="/media/instruction/keystore2.png" alt="Thiết lập keystore" width="800">
+</p>
 
-## 3. Chuẩn bị hình ảnh
+- Sau khi hoàn thành thiết lập, chọn và build file **định dạng .aab (Android App Bundle)**.
 
+<p align="center">
+  <img src="/media/instruction/aab.png" alt="Chọn định dạng aab" width="800">
+</p>
+
+## 4. Chuẩn bị hình ảnh
 
 <table>
   <thead>
@@ -74,25 +105,29 @@ Tài liệu hướng dẫn chi tiết quy trình chuẩn bị và triển khai g
   </tbody>
 </table>
 
+<p align="center">
+  <img src="/media/instruction/feature.png" alt="Feature" width="300">
+</p>
 
-## 4. Soạn mô tả game
+<p align="center">
+  <img src="/media/instruction/screenshot.jpg" alt="Screenshot" width="300">
+</p>
+
+
+## 5. Soạn mô tả game
 - **Short Description** (mô tả ngắn): ≤ 80 ký tự.  
   > Giới thiệu ngắn gọn điểm nổi bật.
 - **Full Description** (mô tả đầy đủ): ≤ 4000 ký tự.  
   > Mô tả chi tiết các tính năng.
 
 
-## 5. Liệt kê các plugin sử dụng trong game
+## 6. Liệt kê các plugin sử dụng trong game
 Các công cụ, phần mềm bổ trợ được tích hợp vào game.
 Ví dụ:
 - In-App Purchase (IAP)
 - Firebase 
 - Google Ads
 - Các plugin khác...
-
-
-## 6. Tạo bundle ID riêng cho game
-Mỗi game cần thiết lập một **bundle ID riêng**. Đây là mã nhận dạng Google Play sử dụng để phân biệt giữa các game và ứng dụng. Mã không được trùng lặp và thường có dạng: *com.yourcompany.yourgamename*
 
 
 ## 7. Chuẩn bị video demo (nếu có)
@@ -104,10 +139,9 @@ Mỗi game cần thiết lập một **bundle ID riêng**. Đây là mã nhận 
 ## 8. Nộp sản phẩm
 Mỗi sản phẩm lưu trong **một thư mục Google Drive riêng**, bao gồm:
   - File **.aab**, **.apk**
-  - Keystore kèm password
-  - Ảnh & mô tả như yêu cầu
+  - Ảnh & mô tả như yêu cầu, ghi chú plugin
   - Video demo (nếu có)
-  - Ghi chú plugin
+
 
 
 ## 9. CHÚ Ý
